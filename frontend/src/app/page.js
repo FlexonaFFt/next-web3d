@@ -1,9 +1,10 @@
-import SplineModel from './components/spline-home-model.js';
+import SplineScene from './components/spline-home-model.js';
+import './App.styles.css';
 
 export default function App() {
   return (
-   <main className="home-model">
-      <SplineModel />
+   <main>
+      <SplineScene />
    </main> 
   );
 }

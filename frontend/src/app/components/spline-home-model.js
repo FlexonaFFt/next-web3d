@@ -1,6 +1,6 @@
 import Spline from '@splinetool/react-spline/next';
 
-export default function SplineHome() {
+export default function SplineScene() {
   return (
     <main>
       <Spline
