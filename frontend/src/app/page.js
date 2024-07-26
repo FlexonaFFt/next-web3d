@@ -1,12 +1,12 @@
 import SplineScene from './components/spline-home-model.js';
-import IntroBlock from './components/intro-block.js';
+import LandingPart from './components/landing-part.js';
 import './App.styles.css';
 
 export default function App() {
   return (
    <main>
       <SplineScene />
-      <IntroBlock />
+      <LandingPart />
    </main> 
   );
 }
