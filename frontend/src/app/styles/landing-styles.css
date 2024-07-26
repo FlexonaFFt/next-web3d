@@ -28,9 +28,9 @@ html {
 
 .big-text-section {
     color: var(--text-color);
-    font-family: Roboto Flex;
+    font-family: 'Roboto Flex';
     font-size: 90px;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 105px;
     letter-spacing: 20%;
     text-align: right;
@@ -40,10 +40,39 @@ html {
 .intro-text-first {
     text-align: left;
     width: 575px;
+    border-bottom: 20px;
 }
 
 .intro-text-second {
+    text-align: left;
+    width: 717px;
+    margin-left: 390px;
+    border-bottom: 20px;
+}
+
+.intro-text-third {
     text-align: right;
     width: 717px;
-    margin-left: 433px;
+    margin-left: 383px;
+    border-bottom: 20px;
+}
+
+.intro-text-quad {
+    border-bottom: 20px;
+}
+
+.text-section {
+    position: absolute;
+    width: 333px;
+    height: 203px;
+    left: 180px;
+    top: 975px;
+
+    color: var(--text-color);
+    font-family: 'Roboto Flex';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
 }
