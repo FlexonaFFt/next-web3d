@@ -1,0 +1,28 @@
+/* components/Loader.module.css */
+.loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Полная высота экрана */
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный фон */
+    position: fixed; /* Зафиксированное положение */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Высокий z-index для отображения поверх других элементов */
+  }
+  
+  .spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 8px solid #3498db; /* Цвет верхней части */
+    width: 50px; /* Ширина спиннера */
+    height: 50px; /* Высота спиннера */
+    animation: spin 1s linear infinite; /* Анимация вращения */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
