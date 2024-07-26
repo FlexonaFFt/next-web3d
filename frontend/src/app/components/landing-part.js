@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import '../styles/landing-styles.css';
+import BookImage from '../images/glasses-book.jpg';
 
 export default function LandingPart() {
     return (
@@ -16,6 +18,11 @@ export default function LandingPart() {
             <p className='intro-text-quad'>efficient</p>
           </div>
         </div>
+      </div>
+
+      <div className='post-introduce-image-block'>
+        <Image src={ BookImage } alt='glasses-image' width={500} height={300} 
+        className='custom-book-image'/>
       </div>
      </div>
   );
