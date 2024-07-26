@@ -21,8 +21,21 @@ export default function LandingPart() {
         <Image src={ BookImage } alt='glasses-image' width={500} height={300} 
         className='custom-book-image'/>
        </div>
-      </div>
 
+       <div className='bottom-text-container'>
+        <div className='slogan'>
+          <p className='slogan-text-first'>Motivation, love,</p>
+          <p className='slogan-text-second'>success or</p>
+          <p className='slogan-text-third'>philosophy</p>
+          <p className='slogan-text-quad'>-we have quotes</p>
+          <p className='slogan-text-five'>that are     need</p>
+          <p className='slogan-text-six'>for any time</p>
+        </div>
+        <p className='bottom-text-section'>Each quote is generated using 
+          algorithms that ensure originality. You can be sure that your 
+          quotes are not repeated and stand out from others.</p>
+       </div>
+      </div>
      </div>
   );
 }
